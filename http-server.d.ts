@@ -1,9 +1,9 @@
 
 export interface Option {
   /**
-   * http header dictionary.
+   * http headers dictionary.
    */
-  header: Object;
+  headers: Object;
   /**
    * Cache time (max-age) in seconds [3600]. Set to -1 to disable caching.
    */
