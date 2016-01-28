@@ -1,2 +1,2 @@
-# typed-http-server
-The typed definition for indexzero/http-server
+# Typed http-server
+The typed definition for [http-server](https://github.com/indexzero/http-server)
