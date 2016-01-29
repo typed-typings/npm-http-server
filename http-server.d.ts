@@ -78,4 +78,4 @@ export function createServer(options?: Option): HttpServer;
 /**
  * Provides backwards compatibility for previous case convention of HTTP
  */
-export var HTTPServer: HttpServer;
+export var HTTPServer: typeof HttpServer;
