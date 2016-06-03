@@ -68,6 +68,8 @@ export class HttpServer {
   listen(port?: number): void;
 
   close(): void;
+  
+  server: HttpServer;
 }
 
 /**
