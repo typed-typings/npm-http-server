@@ -69,7 +69,7 @@ export class HttpServer {
 
   close(): void;
   
-  server: HttpServer;
+  server: any;
 }
 
 /**
