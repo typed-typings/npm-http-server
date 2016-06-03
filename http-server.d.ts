@@ -65,7 +65,7 @@ export interface Option {
 export class HttpServer {
   constructor (options?: Option);
 
-  listen(): void;
+  listen(port?: number): void;
 
   close(): void;
 }
