@@ -3,60 +3,60 @@ export interface Option {
   /**
    * http headers dictionary.
    */
-  headers: Object;
+  headers?: Object;
   /**
    * Cache time (max-age) in seconds [3600]. Set to -1 to disable caching.
    */
-  cache: number;
+  cache?: number;
   /**
    * Show directory listing [true]
    */
-  showDir: boolean;
+  showDir?: boolean;
   /**
    * Display autoIndex [true]
    */
-  autoIndex: boolean;
-  contentType: string;
+  autoIndex?: boolean;
+  contentType?: string;
 
   /**
    * Default file extension.
    */
-  ext: string;
+  ext?: string;
 
   /**
    * Root directory.
    */
-  root: string;
+  root?: string;
 
   /**
    * Logging function
    */
-  logFn(req, res, error): void;
+  logFn?(req, res, error): void;
 
   /**
    * Enable CORS
    */
-  cors: boolean;
+  cors?: boolean;
 
   /**
    * CORS headers list separated by commas
    */
-  corsHeaders: string;
+  corsHeaders?: string;
 
   /**
    * Response to robot.
    */
-  robots: boolean | string;
+  robots?: boolean | string;
 
   /**
    * Fallback proxy url.
    */
-  proxy: string | Function;
+  proxy?: string | Function;
 
   /**
    * Enable heeps
    */
-  https: boolean;
+  https?: boolean;
 }
 
 /**
